@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vue-profile/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>My Profile</title>
+    <script type="module" crossorigin src="/vue-profile/assets/index-5e84f3af.js"></script>
+    <link rel="stylesheet" href="/vue-profile/assets/index-3ca0996c.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/v-mask/dist/v-mask.min.js"></script>
+<script>
+// As a plugin
+Vue.use(VueMask.VueMaskPlugin);
+
+// Or as a directive
+Vue.directive('mask', VueMask.VueMaskDirective);
+</script>
+</html>
